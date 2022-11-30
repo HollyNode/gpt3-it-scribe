@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(45, 43, 55);
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -33,6 +33,7 @@ body {
     position: relative;
     width: auto;
     gap: 64px;
+    
 }
 
 .header {    
@@ -76,6 +77,8 @@ body {
     height: min-content;
     padding: 0px;
     width: min-content;
+    
+   
 }
 
 .prompt-box {
@@ -172,7 +175,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(255, 18, 168);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -323,7 +326,7 @@ textarea {
 .output-content p {
     text-align: center;
     white-space: pre-line;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(34, 255, 0, 0.5);
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
